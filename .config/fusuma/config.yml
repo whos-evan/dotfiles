@@ -1,0 +1,6 @@
+swipe:
+  3:
+    left:
+      command: "xdotool key Ctrl+Page_Up" # Switch tabs (left)
+    right:
+      command: "xdotool key Ctrl+Page_Down" # Switch tabs (right)
