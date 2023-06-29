@@ -3,6 +3,9 @@
 echo 'Installing Brave Browser...'
 flatpak install flathub com.brave.Browser
 
+echo 'Installing Discord...'
+flatpak install flathub com.discordapp.Discord
+
 echo 'Installing the latest version of Visual Studio Code as a .deb file...'
 wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -O visual-studio-code.deb
 echo 'Installing the .deb file...'
